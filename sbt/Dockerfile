@@ -7,6 +7,8 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B
 RUN DEBIAN_FRONTEND=noninteractive apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install sbt -y
 
+RUN sbt info
+
 
 #ENV HOME=/home/developer
 #ARG uid=0
