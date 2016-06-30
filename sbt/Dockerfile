@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM c0d3r/java:latest
 
 MAINTAINER Ivan Fastov c0d3r85@gmail.com
 
